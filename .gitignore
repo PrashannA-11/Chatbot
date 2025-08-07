@@ -1,19 +1,36 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-# Virtual environment
+# Virtual environments
 venv/
-
-# Environment variables
+.env/
 .env
 
-# FAISS index and pickle files (can be large or auto-generated)
+# FAISS index and embeddings
 *.faiss
 *.pkl
 
-# PDF or binary assets
+# LangChain & Chroma vectorstore directories
+vectorstore/
+db/
+index/
+
+# VS Code / PyCharm settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Output or static files
 *.pdf
 *.json
 *.txt
