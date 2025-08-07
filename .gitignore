@@ -15,6 +15,7 @@ venv/
 
 # PDF or binary assets
 *.pdf
-*.json*.txt
+*.json
+*.txt
 *.docx
 *.doc
