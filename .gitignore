@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# FAISS index and pickle files (can be large or auto-generated)
+*.faiss
+*.pkl
+
+# PDF or binary assets
+*.pdf
+*.json*.txt
+*.docx
+*.doc
